@@ -31,7 +31,7 @@ public class CalculatorTest {
 
 	@Test
 	public void TestCase04() {
-		int result = calc.add(13, 5);
+		int result = calc.sub(13, 5);
 		assertEquals(8, result);
 	}
 
